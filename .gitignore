@@ -4,3 +4,5 @@ xp.sqlite
 xp.sqlite-shm
 xp.sqlite-wal
 *.log
+src/db.js
+.zip
