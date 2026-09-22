@@ -24,9 +24,4 @@ const CONFIG = {
   xpPerLevelFactor: 100,
   announceLevelUp: true,
 };
-
-if (!CONFIG.token) {
-  throw new Error("TOKEN manquant. Mets TOKEN=... dans ton fichier .env");
-}
-
 module.exports = { CONFIG };
